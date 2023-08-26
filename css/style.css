@@ -148,6 +148,11 @@ p
 
 @media screen and (max-height: 481px)
 {
+    body
+    {
+        padding: 8%;
+    };
+    
     h1
     {
         font-size:26px;
@@ -180,6 +185,11 @@ p
     .project-logo
     {
         width:125px;
+    }
+
+    .space
+    {
+        padding:100px;
     }
 
     #headshot
@@ -248,6 +258,6 @@ p
 
     .space-top
     {
-        padding:90px;
+        padding:calc(100vh * 0.12);
     }
 }
