@@ -105,9 +105,6 @@ p
 
 #headshot
 {
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
     width:242px;
 }
 
@@ -172,7 +169,7 @@ p
         letter-spacing:0.05em;
     }
 
-    .column-about-21
+    .column-about-1
     {
         float:none;
         position:relative;
@@ -206,14 +203,9 @@ p
     {
         padding:90px;
     }
-
-    #headshot
-    {
-        width:100%;
-    }
 }
 
-/* @media handheld and (max-height: 481px) and (orientation: landscape) {
+@media handheld and (max-height: 481px) and (orientation: landscape) {
     html 
     {
         height: 100vw;
@@ -225,4 +217,4 @@ p
         transform-origin: left top;
         width: 100vh;
     }
-  } */
+  }
