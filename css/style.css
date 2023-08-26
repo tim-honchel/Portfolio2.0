@@ -1,5 +1,5 @@
 a{
-    color:aqua;
+    color:cadetblue;
     font-style:bold;
 }
 
@@ -81,6 +81,11 @@ p
     width:150px;
 }
 
+.project-logo:hover
+{
+    filter:drop-shadow(16px 16px 20px red) invert(75%);
+}
+
 .row
 {
     display: grid;
@@ -96,6 +101,11 @@ p
 .space
 {
     padding:250px;
+}
+
+#headshot
+{
+    width:242px;
 }
 
 #project-1
@@ -199,3 +209,17 @@ p
         width:100%;
     }
 }
+
+@media handheld and (max-height: 481px) and (orientation: landscape) {
+    html 
+    {
+        height: 100vw;
+        left: 0;
+        overflow-x: hidden;
+        position: absolute;
+        top: 100%;
+        transform: rotate(-90deg);
+        transform-origin: left top;
+        width: 100vh;
+    }
+  }
