@@ -210,7 +210,7 @@ p
     }
 }
 
-@media handheld and (max-height: 481px) and (orientation: landscape) {
+/* @media handheld and (max-height: 481px) and (orientation: landscape) {
     html 
     {
         height: 100vw;
@@ -222,4 +222,4 @@ p
         transform-origin: left top;
         width: 100vh;
     }
-  }
+  } */
