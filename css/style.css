@@ -105,6 +105,9 @@ p
 
 #headshot
 {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
     width:242px;
 }
 
