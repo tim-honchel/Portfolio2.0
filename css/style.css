@@ -1,0 +1,141 @@
+a{
+    color:aqua;
+    font-style:bold;
+}
+
+body 
+{
+    background-color:rgb(63, 63, 63);
+    padding: 10%;
+}
+
+h1
+{
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:72px;
+    text-align:center;
+}
+
+h2
+{
+    color:white;
+    font-family:serif;
+    font-size:32px;
+    text-align:center;
+}
+
+h3
+{
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:32px;
+    text-align:center;
+}
+
+p
+{
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:24px;
+    letter-spacing:0.05em;
+}
+
+.column-about-1
+{
+    float:left;
+    text-align:center;
+}
+
+.column-about-2
+{
+    float:left;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-top:30px; 
+}
+
+.grid
+{  
+    display:grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    position:relative;
+    width:100%;
+}
+
+.grid-item
+{
+    align-items: center;
+    border-radius:15px;
+    display: flex;
+    flex-direction: column;
+    float:left;
+    justify-content: center;
+    padding:30px;
+}
+
+.project-logo
+{
+    width:150px;
+}
+
+.row
+{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 5%;
+}
+
+.space
+{
+    padding:250px;
+}
+
+#intro
+{
+    
+}
+
+#headshot
+{
+    
+}
+
+#project-1
+{
+    background-color:rgb(80,92,103);
+}
+
+#project-2
+{
+    background-color:rgb(70,70,83);
+}
+
+#project-3
+{
+    background-color:rgb(114,124,163);
+}
+
+#project-4
+{
+    background-color:rgb(128,117,138);
+}
+
+#project-5
+{
+    background-color:rgb(165,153,174);
+}
+
+#project-6
+{
+    background-color:rgb(221,233,236);
+}
+
+#site-logo
+{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:150px;
+}
